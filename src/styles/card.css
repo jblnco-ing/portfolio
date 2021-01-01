@@ -1,0 +1,42 @@
+.container-card:hover{
+    background-color:var(--primary-color-light);
+}
+.container-card{
+    background-color: var(--primary-color);
+    border-radius: 10px;
+    width: 250px;
+    height: fit-content;
+    margin: 15px 0px;
+}
+.container-card a{
+    display: grid;
+    color: var(--text-color);
+    cursor: pointer;
+    text-align: start;
+    text-decoration: none;
+}
+.container-card h2{
+    margin-bottom: 30px;
+    font-size: 1.5em;
+
+}
+.container-card h1{
+    font-size: 30px;
+    font-weight: bold;
+}
+.container-card h1,h2{
+    margin-left: 10px;
+    margin-top: 15px;
+    margin-right: 10px;
+}
+.container-card .circle{
+    justify-self: end;
+    width: 88px;
+    height: 88px;
+    background-size: 75%;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-top-left-radius: 50%;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px
+}

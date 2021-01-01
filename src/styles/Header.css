@@ -1,0 +1,23 @@
+header{
+    background-color: black;
+    padding: 0px 10px;
+}
+
+header img{
+    height: 130px;
+    border-radius: 50%;
+    margin: 15px;
+}
+
+header div{
+    font-family: Rokkitt;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 72px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.link{
+    display: contents;
+}

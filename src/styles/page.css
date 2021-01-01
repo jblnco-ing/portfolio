@@ -1,0 +1,26 @@
+#page {
+    /* background-color: rgb(14, 139, 248); */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    /* color: ; */
+}
+#page p{
+  /* background-color: aqua; */
+  width: 80%;
+  text-align: center;
+  margin: 10px;
+  color: var(--text-color);
+  font-size: 20px;
+}
+
+a:hover{
+  font-weight: 900;
+}
+
+a{
+  font-weight:700;
+  color: var(--text-color);
+  text-decoration: none;
+}
