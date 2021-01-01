@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { CardProject } from '../../components/common/CardProject';
 import Layout from '../../components/layouts/Layout';
+import * as img from '../../assets/img/projects/cafe_oslo/';
 import "../../styles/page.css";
 
 export default class CafeOslo extends Component {
@@ -14,14 +15,6 @@ export default class CafeOslo extends Component {
   }
 
   render() {
-    const img = [
-      require('../../assets/img/projects/cafe_oslo/Imagen1.png'),
-      require('../../assets/img/projects/cafe_oslo/Imagen2.png'),
-      require('../../assets/img/projects/cafe_oslo/Imagen3.png'),
-      require('../../assets/img/projects/cafe_oslo/Imagen4.png'),
-      require('../../assets/img/projects/cafe_oslo/Imagen5.png'),
-      require('../../assets/img/projects/cafe_oslo/Imagen6.png'),
-    ];
     return (
       <Layout>
         <div id="page">
@@ -38,11 +31,11 @@ export default class CafeOslo extends Component {
             </a>
             .
           </p>
-          <img alt="imagen" src={img[0]}/>
+          <img alt="imagen" src={img.imagen1}/>
           <p>
             La práctica final consistió en montar está página web con todas las herramientas que había dado el curso.
           </p>
-          <img alt="imagen" src={img[1]}/>
+          <img alt="imagen" src={img.imagen2}/>
           <p>
             Prácticamente fue mi primera experiencia de 
             <a href="https://es.wikipedia.org/wiki/Desarrollo_web_Front-end"> 
@@ -50,7 +43,7 @@ export default class CafeOslo extends Component {
             </a>
             , skill que estoy desarrollado bastante.
           </p>
-          <img alt="imagen" src={img[2]}/>
+          <img alt="imagen" src={img.imagen3}/>
           <p>
             Lo que mas me lleve de este curso fue el uso de las                  
             <a href="https://es.wikipedia.org/wiki/Media_query"> 
@@ -65,15 +58,15 @@ export default class CafeOslo extends Component {
           <p>
             Diseño de la pagina por bloques
           </p>
-          <img alt="imagen" src={img[3]}/>
+          <img alt="imagen" src={img.imagen4}/>
           <p>
             Aplicando un menú distinto en el media query
           </p>
-          <img alt="imagen" src={img[4]}/>
+          <img alt="imagen" src={img.imagen5}/>
           <p>
             Vista móvil de la pagina
           </p>
-          <img alt="imagen" src={img[5]} />
+          <img alt="imagen" src={img.imagen6} />
         </div>
       </Layout>
     );

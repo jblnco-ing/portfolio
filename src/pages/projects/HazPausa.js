@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { CardProject } from '../../components/common/CardProject';
 import Layout from '../../components/layouts/Layout';
 import "../../styles/page.css";
+import * as img from '../../assets/img/projects/haz_pausa/';
 
 export default class HazPausa extends Component {
   state = {
@@ -14,16 +15,6 @@ export default class HazPausa extends Component {
   }
 
   render() {
-    const img = [
-      require('../../assets/img/projects/haz_pausa/Imagen1.png'),
-      require('../../assets/img/projects/haz_pausa/Imagen2.png'),
-      require('../../assets/img/projects/haz_pausa/Imagen3.png'),
-      require('../../assets/img/projects/haz_pausa/Imagen4.png'),
-      require('../../assets/img/projects/haz_pausa/Imagen5.png'),
-      require('../../assets/img/projects/haz_pausa/Imagen6.png'),
-      require('../../assets/img/projects/haz_pausa/Imagen7.png'),
-      require('../../assets/img/projects/haz_pausa/Imagen8.png'),
-    ];
     return (
       <Layout>
         <div id="page">
@@ -35,7 +26,7 @@ export default class HazPausa extends Component {
             </a>
             que sirve a la vez como álbum de colección, es un proyecto que estamos llevando mi pareja y yo, en donde ella es la diseñadora y yo quien desarrolla la plataforma.
           </p>
-          <img alt="imagen" src={img[0]}/>
+          <img alt="imagen" src={img.imagen1}/>
           <p>
             La app permite guardar y visualizar en cualquier momento y sin conexión a internet, el arte que se oculta en los QR artísticos que intervienen el espacio público del 
             <a href="https://es.wikipedia.org/wiki/Metro_de_Caracas"> 
@@ -43,11 +34,11 @@ export default class HazPausa extends Component {
             </a>
              .
           </p>
-          <img alt="imagen" src={img[1]}/>
+          <img alt="imagen" src={img.imagen2}/>
           <p>
             Haz pausa es un proyecto artístico que pretende incidir simbólicamente en la apreciación de las personas sobre su propio recorrido. transformando la rutina e incitando a una experiencia lúdica.
           </p>
-          <img alt="imagen" src={img[2]}/>
+          <img alt="imagen" src={img.imagen3}/>
           <p>
             Es la segunda app que desarrollo para 
             <a href="https://es.wikipedia.org/wiki/Android"> 
@@ -62,7 +53,7 @@ export default class HazPausa extends Component {
           <p>
             Escaneo de Qr
           </p>
-          <img alt="imagen" src={img[3]}/>
+          <img alt="imagen" src={img.imagen4}/>
           <p>
             Lo desarrolle con la plataforma 
             <a href="https://expo.io"> 
@@ -81,11 +72,11 @@ export default class HazPausa extends Component {
           <p>
             Escaneo de qr y reproducción de la animacion
           </p>
-          <img alt="imagen" src={img[4]}/>
+          <img alt="imagen" src={img.imagen5}/>
           <p>
             Guardado y colección de la animacion
           </p>
-          <img alt="imagen" src={img[5]}/>
+          <img alt="imagen" src={img.imagen6}/>
           <p>
             Aunque actualmente aun no hay 
             <a href="https://es.wikipedia.org/wiki/Pegatina"> 
@@ -100,14 +91,14 @@ export default class HazPausa extends Component {
           <p>
             Animacion de los Qr
           </p>
-          <img alt="imagen" src={img[6]} />
+          <img alt="imagen" src={img.imagen7} />
           <p>
             Logotipos de la app fue hecho por la colaboración de 
             <a href="https://www.instagram.com/dona.intermitente/"> 
               &nbsp;@dona.intermitente
             </a>
           </p>
-          <img alt="imagen" src={img[7]}/>
+          <img alt="imagen" src={img.imagen8}/>
         </div>
       </Layout>
     );

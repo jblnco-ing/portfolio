@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { CardProject } from '../../components/common/CardProject';
 import Layout from '../../components/layouts/Layout';
 import "../../styles/page.css";
-
+import * as img from '../../assets/img/projects/the_finder_app/';
 export default class TheFinder extends Component {
   state = {
     data:{}
@@ -14,16 +14,6 @@ export default class TheFinder extends Component {
   }
 
   render() {
-    const img = [
-      require("../../assets/img/projects/the_finder_app/Imagen1.png"),
-      require("../../assets/img/projects/the_finder_app/Imagen2.png"),
-      require("../../assets/img/projects/the_finder_app/Imagen3.png"),
-      require("../../assets/img/projects/the_finder_app/Imagen4.png"),
-      require("../../assets/img/projects/the_finder_app/Imagen5.png"),
-      require("../../assets/img/projects/the_finder_app/Imagen6.png"),
-      require("../../assets/img/projects/the_finder_app/Imagen7.png"),
-      require("../../assets/img/projects/the_finder_app/logo completo.png"),
-    ];
     return (
       <Layout>
         <div id="page">
@@ -31,7 +21,8 @@ export default class TheFinder extends Component {
           <p>
             Es una app web diseñada para el registro de actividades de compra y venta para pequeños negocios.
           </p>
-          <img alt="imagen" src={img[0]}/>
+          <img alt="imagen" src={img.imagen1} />
+          <img alt="imagen" src={img.imagen2}/>
           <p>
             La aplicación permite el registro de clientes, el producto que compro, la fecha y el estado del pago.
           </p>
@@ -42,7 +33,7 @@ export default class TheFinder extends Component {
             </a>
             .
           </p>
-          <img alt="imagen" src={img[7]}/>
+          <img alt="imagen" src={img.imagen9}/>
           <p>
             Puede ser utilizado por varios administradores, utiliza las herramientas de 
             <a href="https://es.wikipedia.org/wiki/Firebase"> 
@@ -72,15 +63,15 @@ export default class TheFinder extends Component {
           <p>
             Ingreso del cliente
           </p>
-          <img alt="imagen" src={img[1]} />
+          <img alt="imagen" src={img.imagen3} />
           <p>
             Ingreso de nueva compra/venta
           </p>
-          <img alt="imagen" src={img[2]} />
+          <img alt="imagen" src={img.imagen4} />
           <p>
             Fecha de registro
           </p>
-          <img alt="imagen" src={img[3]} />
+          <img alt="imagen" src={img.imagen5} />
           <p>
             La app ahorra la necesidad de diseñar un Sistema de  
             <a href="https://es.wikipedia.org/wiki/Microsoft_Excel"> 
@@ -88,15 +79,16 @@ export default class TheFinder extends Component {
             </a>
             para negocios de simple procedimientos.
           </p>
-          <img alt="imagen" src={img[4]} />
+          <img alt="imagen" src={img.imagen6} />
           <p>
             Ingreso de nuevo cliente
           </p>
-          <img alt="imagen" src={img[5]} />
+          <img alt="imagen" src={img.imagen7} />
           <p>
             Ingreso de nuevo estado
           </p>
-          <img alt="imagen" src={img[6]} />
+          <img alt="imagen" src={img.imagen8} />
+          {/* <img alt="imagen" src={img.imagen9} /> */}
         </div>
       </Layout>
     );

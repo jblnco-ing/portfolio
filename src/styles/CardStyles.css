@@ -9,7 +9,6 @@
     margin: 15px 0px;
 }
 .container-card a{
-    
     display: grid;
     color: var(--text-color);
     cursor: pointer;

@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { CardProject } from '../../components/common/CardProject';
 import Layout from '../../components/layouts/Layout';
 import "../../styles/page.css";
+import * as img from '../../assets/img/projects/obsequi_ar';
 
 export default class ObsequiAr extends Component {
   state = {
@@ -14,18 +15,6 @@ export default class ObsequiAr extends Component {
   }
 
   render() {
-    const img = [
-      require('../../assets/img/projects/obsequi_ar/Imagen1.png'),
-      require('../../assets/img/projects/obsequi_ar/Imagen2.png'),
-      require('../../assets/img/projects/obsequi_ar/Imagen3.png'),
-      require('../../assets/img/projects/obsequi_ar/Imagen4.png'),
-      require('../../assets/img/projects/obsequi_ar/Imagen5.png'),
-      require('../../assets/img/projects/obsequi_ar/Imagen6.png'),
-      require('../../assets/img/projects/obsequi_ar/Imagen7.jpg'),
-      require('../../assets/img/projects/obsequi_ar/Imagen8.png'),
-      require('../../assets/img/projects/obsequi_ar/Imagen9.png'),
-      require('../../assets/img/projects/obsequi_ar/Imagen10.png'),
-    ];
     return (
       <Layout>
         <div id="page">
@@ -40,7 +29,7 @@ export default class ObsequiAr extends Component {
               &nbsp;un regalo o arreglos de flores.
             </a>
           </p>
-          <img alt="imagen" src={img[0]}/>
+          <img alt="imagen" src={img.imagen1}/>
           <p>
             Primer 
             <a href="https://es.wikipedia.org/wiki/Producto_viable_mínimo"> 
@@ -51,7 +40,7 @@ export default class ObsequiAr extends Component {
           <p>
             Con vista de implementarlo a mas productos en el futuro.
           </p>
-          <img alt="imagen" src={img[1]}/>
+          <img alt="imagen" src={img.imagen2}/>
           <p>
             Marcadores
           </p>
@@ -65,7 +54,7 @@ export default class ObsequiAr extends Component {
             </a>
             y marcador para ver la realidad aumentada
           </p>
-          <img alt="imagen" src={img[2]}/>
+          <img alt="imagen" src={img.imagen3}/>
           <p>
             El mensaje personal puede ser un video, el cual no ocupara mas espacio en el regarlo y no opacara el mismo.
           </p>
@@ -75,7 +64,7 @@ export default class ObsequiAr extends Component {
               &nbsp;@partyhouse
             </a>
           </p>
-          <img alt="imagen" src={img[3]}/>
+          <img alt="imagen" src={img.imagen4}/>
           <p>
             Lo mas complicado fue el poder implementarlo en los diferentes   
             <a href="https://es.wikipedia.org/wiki/Navegador_web"> 
@@ -83,7 +72,7 @@ export default class ObsequiAr extends Component {
             </a>
             que poseen los teléfonos.
           </p>
-          <img alt="imagen" src={img[4]}/>
+          <img alt="imagen" src={img.imagen5}/>
           <p>
             Por lo menos 
             <a href="https://www.apple.com/la/safari/"> 
@@ -94,7 +83,7 @@ export default class ObsequiAr extends Component {
           <p>
             Mensaje reproducido en safari
           </p>
-          <img alt="imagen" src={img[5]}/>
+          <img alt="imagen" src={img.imagen6}/>
           <p>
             El problema con safari me obligo a pasar el desarrollo de 
             <a href="https://es.reactjs.org"> 
@@ -109,22 +98,22 @@ export default class ObsequiAr extends Component {
           <p>
             QR del producto
           </p>
-          <img alt="imagen" src={img[6]}/>
+          <img alt="imagen" src={img.imagen7}/>
           <p>
             Cacturando el QR y el marcador desde safari
           </p>
-          <img alt="imagen" src={img[7]}/>
+          <img alt="imagen" src={img.imagen8}/>
           <p>
             Instrucciones de la realidad aumentada
           </p>
-          <img alt="imagen" src={img[8]}/>
+          <img alt="imagen" src={img.imagen9}/>
           <p>
             Logo del proyecto colaboración de 
             <a href="https://www.instagram.com/dona.intermitente/"> 
               &nbsp;@dona.intermitente
             </a>
           </p>
-          <img alt="imagen" src={img[9]}/>
+          <img alt="imagen" src={img.imagen10}/>
         </div>
       </Layout>
     );
