@@ -1,4 +1,5 @@
-﻿import logo from './logo.jpg';
+﻿// eslint-disable-next-line
+import logo from './logo.jpg';
 import imagen1 from './Imagen1.png';
 import imagen2 from './Imagen2.png';
 import imagen3 from './Imagen3.png';
