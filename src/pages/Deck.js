@@ -13,7 +13,7 @@ export default class Deck extends Component {
 			description={item.description}
 			src={item.src}
 			point={item.point}
-			styles={item.style}
+			styles={item.styles}
 			/>
 		));
         return (

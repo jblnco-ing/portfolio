@@ -6,13 +6,15 @@ import * as img from '../../assets/img/projects/hydroponic_system';
 
 export default class HydroponicSystem extends Component {
   state = {
-    data:{}
+    data: {
+      title: "Hydroponic System",
+      description: "Hardware",
+      styles: {
+        backgroundImage: `url(${img.logo})`,
+        backgroundColor: "#ffffff",
+      },
+    }
   };
-  componentDidMount() {
-    this.setState({
-      data: this.props.location.state.props
-    });
-  }
 
   render() {
     return (

@@ -6,13 +6,15 @@ import * as img from '../../assets/img/projects/haz_pausa/';
 
 export default class HazPausa extends Component {
   state = {
-    data:{}
+    data: {
+      title: "HazPausa",
+		description: "App Mobile",
+      styles: {
+        backgroundImage: `url(${img.logo})`,
+        backgroundColor: "#F0F8FF",
+      },
+    }
   };
-  componentDidMount() {
-    this.setState({
-      data: this.props.location.state.props
-    });
-  }
 
   render() {
     return (

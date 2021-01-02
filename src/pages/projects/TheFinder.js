@@ -5,13 +5,15 @@ import "../../styles/page.css";
 import * as img from '../../assets/img/projects/the_finder_app/';
 export default class TheFinder extends Component {
   state = {
-    data:{}
+    data: {
+      title: "The Finder",
+      description: "Admin App",
+      styles: {
+        backgroundImage: `url(${img.logo})`,
+        backgroundColor: "#fb9902",
+      },
+    }
   };
-  componentDidMount() {
-    this.setState({
-      data: this.props.location.state.props
-    });
-  }
 
   render() {
     return (

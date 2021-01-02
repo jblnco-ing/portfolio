@@ -6,14 +6,16 @@ import "../../styles/page.css";
 
 export default class CafeOslo extends Component {
   state = {
-    data:{}
+    data: {
+      title: "Café de Oslo",
+      description: "Landing Page",
+      styles: {
+        backgroundImage: `url(${img.logo})`,
+        backgroundColor: "#D03B40",
+      },
+    }
   };
-  componentDidMount() {
-    this.setState({
-      data: this.props.location.state.props
-    });
-  }
-
+  
   render() {
     return (
       <Layout>
