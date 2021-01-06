@@ -1,7 +1,7 @@
 .container-card-project{
     justify-self: center;
     display: flex;
-    color: var(--text-color);
+    color: var(--text-segundary-color);
     background-color: var(--primary-color);
     border-radius: 10px;
     margin: 15px 0px;

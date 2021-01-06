@@ -11,7 +11,7 @@
   width: 80%;
   text-align: center;
   margin: 10px;
-  color: var(--text-color);
+  color: var(--text-segundary-color);
   font-size: 20px;
 }
 
@@ -21,6 +21,6 @@ a:hover{
 
 a{
   font-weight:700;
-  color: var(--text-color);
+  color: var(--text-segundary-color);
   text-decoration: none;
 }

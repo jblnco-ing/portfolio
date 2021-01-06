@@ -5,6 +5,7 @@
     display: flex;
     justify-content: center;
     flex: 0 0 auto;
+    color: var(--text-segundary-color);
 }
 
 #home-container::before{
@@ -50,7 +51,7 @@
     animation:unset;
 }
 .link{
-    color: var(--text-color);
+    color: var(--text-segundary-color);
     text-decoration: none;
     font-weight:700;
     animation:blur 5s ease-out infinite;

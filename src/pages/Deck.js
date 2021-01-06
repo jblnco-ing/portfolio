@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import { Card } from "../components/common/Card"
+import { skills } from '../components/common/skills';
 import Layout from '../components/layouts/Layout';
 import projects from '../consts/projects';
 import '../styles/Deck.css';
@@ -18,9 +19,10 @@ export default class Deck extends Component {
 		));
         return (
 			<Layout>
+				<skills/>
             	<div id="deck-container" >
                 	{projectsCards}
-            	</div>
+				</div>
 			</Layout>
         )
     }

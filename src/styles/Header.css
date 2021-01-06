@@ -1,6 +1,7 @@
 header{
     background-color: black;
     padding: 0px 10px;
+    color: var(--text-segundary-color);
 }
 
 header img{
