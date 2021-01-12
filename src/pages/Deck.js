@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { Card } from "../components/common/Card"
-import { skills } from '../components/common/skills';
+import { Skills } from '../components/common/Skills';
 import Layout from '../components/layouts/Layout';
 import projects from '../consts/projects';
 import '../styles/Deck.css';
@@ -19,7 +19,7 @@ export default class Deck extends Component {
 		));
         return (
 			<Layout>
-				<skills/>
+				<Skills />
             	<div id="deck-container" >
                 	{projectsCards}
 				</div>
